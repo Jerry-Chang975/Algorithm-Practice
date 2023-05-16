@@ -8,9 +8,12 @@
 - 二元搜尋法(最左值) --> binary_search_left.py
 - 二元搜尋法(最右值) --> binary_search_right.py
 
+### DP
+- 湊零錢 --> minima_coin.py
+
 ### sort
 
-- 用合併排序演算法排序陣列 --> merge_sort.py
+- 利用合併排序演算法排序陣列 --> merge_sort.py
 
 ### pointer
 
@@ -19,6 +22,13 @@
 ### BFS
 
 - (back tracking)利用 BFS 來計算解密碼鎖的最少步數 --> bfs_pw_solution.py
+
+### sliding window
+
+- 利用滑動視窗算法求解最小覆蓋字串 --> sliding_window.py
+- 找字串任一全排列 --> string_all_arr.py
+- 找所有字母異位詞(全排列) --> string_arrangement.py
+- 最長無重複字串 --> longest_nonrepeat_string.py
 
 ### Reference
 
