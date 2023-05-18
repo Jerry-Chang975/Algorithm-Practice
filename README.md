@@ -10,6 +10,8 @@
 
 ### DP
 - 湊零錢 --> minima_coin.py
+- Longest Increasing Subsequence (LIS) -- > longest_increasing_subsequence.py
+- 信封嵌套 --> envelope_nesting.py 
 
 ### sort
 
