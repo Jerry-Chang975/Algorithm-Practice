@@ -1,3 +1,4 @@
+# 合併排序 merge sort: time complexity: O(NlogN)
 def merge_sort(arr: list):
     # base condition
     if len(arr) == 1: return arr
@@ -30,8 +31,8 @@ def merge_sort(arr: list):
     return sorted_arr
 
 if __name__ == "__main__":
-    unordered_arr = [2,1,4,67,3,2]
-
+    import random
+    unordered_arr = [random.randint(1, 10) for i in range(5000)]
     print(merge_sort(unordered_arr))
 
 

@@ -16,6 +16,7 @@
 ### sort
 
 - 利用合併排序演算法排序陣列 --> merge_sort.py
+- 快速排序法 --> quick_sort.py
 
 ### pointer
 
