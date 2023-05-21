@@ -1,4 +1,4 @@
-# sliding window algorithm 
+# sliding window algorithm - time complexity: O(N)
 
 def sliding_window(s, t):
     left = 0; right = 0

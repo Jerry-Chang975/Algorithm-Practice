@@ -1,6 +1,7 @@
 # Algorithm-Practice
 
 記錄個人練習演算法的小筆記，僅供參考~ (持續更新)
+語言: Python
 
 ### binary search
 
@@ -12,6 +13,7 @@
 - 湊零錢 --> minima_coin.py
 - Longest Increasing Subsequence (LIS) -- > longest_increasing_subsequence.py
 - 信封嵌套 --> envelope_nesting.py 
+- Max Subarray Sum(最大子陣列之和) --> max_subarray.py
 
 ### sort
 
