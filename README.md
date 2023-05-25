@@ -14,6 +14,7 @@
 - Longest Increasing Subsequence (LIS) -- > longest_increasing_subsequence.py
 - 信封嵌套 --> envelope_nesting.py 
 - Max Subarray Sum(最大子陣列之和) --> max_subarray.py
+- Longest Common Subsequence 最長公用次序列 --> longest_common_subsequence.py
 
 ### sort
 
