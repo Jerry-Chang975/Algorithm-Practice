@@ -17,6 +17,7 @@
 - Max Subarray Sum(最大子陣列之和) --> max_subarray.py
 - Longest Common Subsequence 最長公用次序列 --> longest_common_subsequence.py
 - Shortest Edit Distance 最短編輯距離 --> shortest_edit_distance.py
+- Longest Palindrome Subsequence 最長回文子序列 --> longest_palindrome_subsequence.py
 
 ### sort
 
