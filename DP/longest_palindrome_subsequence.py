@@ -17,7 +17,7 @@ def LPS(s: str):
     
     return DP[0][len(s)-1]
 
-# 進一步狀態壓縮，DP 2d->1d
+# 進一步狀態壓縮，DP 2d->1d 
 def LPS_2(s: str):
     # define DP table: DP[i][j] = LPS of s[i:j]
     # solution is DP[len(s)-1]
