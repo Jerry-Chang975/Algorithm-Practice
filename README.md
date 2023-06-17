@@ -11,13 +11,14 @@
 
 ### DP
 
-- 湊零錢 --> minima_coin.py
-- Longest Increasing Subsequence (LIS) -- > longest_increasing_subsequence.py
-- 信封嵌套 --> envelope_nesting.py
-- Max Subarray Sum(最大子陣列之和) --> max_subarray.py
+- Minimum Coin 湊零錢 --> minimum_coin.py
+- Longest Increasing Subsequence (LIS) 最長遞增子序列 -- > longest_increasing_subsequence.py
+- Envelope Nesting 信封嵌套 --> envelope_nesting.py
+- Max Subarray Sum 最大子陣列之和 --> max_subarray.py
 - Longest Common Subsequence 最長公用次序列 --> longest_common_subsequence.py
 - Shortest Edit Distance 最短編輯距離 --> shortest_edit_distance.py
 - Longest Palindrome Subsequence 最長回文子序列 --> longest_palindrome_subsequence.py
+- Minimum Insertion Palindrome 最短插入回文 --> mini_insertion_palindrome.py
 
 ### sort
 
