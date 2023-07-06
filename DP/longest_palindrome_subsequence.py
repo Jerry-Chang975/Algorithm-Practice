@@ -1,21 +1,25 @@
-# 最長回文子序列 time complexity O(N^2)
+# 最長回文子"序列"(not continue) time complexity O(N^2)
 def LPS(s: str):
     # define DP table: DP[i][j] = LPS of s[i:j]
     # solution is DP[0][len(s)]
     DP = [[0 for i in range(len(s))] for i in range(len(s))]
+    DP_str = [['' for i in range(len(s))] for i in range(len(s))]
 
     # i = j -> len(s) = 1 -> LPS = 1
     for i in range(len(s)):
         DP[i][i] = 1
-    
+        DP_str[i][i] = s[i]
+
     for i in reversed(range(len(s)-1)):
         for j in range(i+1, len(s)):
             if s[i] == s[j]:
                 DP[i][j] = DP[i+1][j-1] + 2
+                DP_str[i][j] = s[i] + DP_str[i+1][j-1] + s[j]
             else:
                 DP[i][j] = max(DP[i][j-1], DP[i+1][j])
+                DP_str[i][j] = DP_str[i][j-1] if len(DP_str[i][j-1]) > len(DP_str[i+1][j]) else DP_str[i+1][j]
     
-    return DP[0][len(s)-1]
+    return DP[0][len(s)-1], DP_str[0][len(s)-1]
 
 # 進一步狀態壓縮，DP 2d->1d 
 def LPS_2(s: str):
@@ -41,4 +45,4 @@ def LPS_2(s: str):
 
 
 if __name__ == "__main__":
-    print(LPS("acfsdfdsdea"))
+    print(LPS("aacabdkacaa"))

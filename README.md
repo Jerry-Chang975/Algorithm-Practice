@@ -18,6 +18,7 @@
 - Longest Common Subsequence 最長公用次序列 --> longest_common_subsequence.py
 - Shortest Edit Distance 最短編輯距離 --> shortest_edit_distance.py
 - Longest Palindrome Subsequence 最長回文子序列 --> longest_palindrome_subsequence.py
+- Longest Palindrome Substring 最長回文子字串 --> longest_palindrome_substring.py
 - Minimum Insertion Palindrome 最短插入回文 --> mini_insertion_palindrome.py
 - Regex with DP 動態規劃之正則表達式 --> regex_with_dp.py
 
